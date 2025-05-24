@@ -11,16 +11,20 @@ You can include whatever information you want in a prompt that you think is impo
 * Contextual information (optional)
 
 Task
+=====
 A task is the text in the prompt that you want the model to provide a response for. Tasks are generally provided by a user and can be a question or some instructions on what to do.
 
 System instructions
+====================
 System instructions are instructions that get passed to the model before any user input in the prompt. You can add system instructions in the dedicated systemInstruction parameter.
 In the following example, system instructions are used to dictate the style and tone of the model, while adding constraints to what it can and can't talk about:
 ￼
 Few-shot examples
+=================
 Few-shot examples are examples that you include in a prompt to show the model what getting it right looks like. Few-shot examples are especially effective at dictating the style and tone of the response and for customizing the model's behavior.
 
 Contextual information
+======================
 Contextual information, or context, is information that you include in the prompt that the model uses or references when generating a response. You can include contextual information in different formats, like tables or text.
 Prompt:
 
